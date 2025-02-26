@@ -1,0 +1,154 @@
+html{
+    font-size: 16px;
+    color: rgb(30, 30, 30)
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter',sans-serif;
+    font-size: 1rem;
+}
+#navbar{
+    padding: 8px;
+    background-color: rgb(32, 32, 52);
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 2.5rem;
+
+}
+h2{font-size: 2rem;}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.25rem;}
+h6{font-size: rem;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #222222;
+}
+#logo{
+    height: 30px;
+    margin: 0;
+    width: auto;
+   
+}
+#banner{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding:8px;
+    font-size: 1.25rem;
+}
+a{
+    text-decoration: none;
+    color: #3F83F8 ;
+}
+a:hover ,a:focus{
+    color:#1A56DB ;
+}
+#description{
+    width: 50%;
+    padding-right:8px;
+}
+#team-image{
+ border-radius: 5px;
+ width: 100%;
+}
+#team{
+    width: 50%;
+}
+h2{
+    text-align: center;
+}
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+h3{
+    margin-bottom:0;
+    margin-top: 0%;
+}
+.apply{
+    float: right;
+}
+#footer{
+    background-color: #F9FAFB;
+    padding: 8px;
+    text-align: center;
+    margin-top: 36px;
+}
+#footer-links{
+    list-style: none;
+   
+}
+#footer-links li{
+    display: inline;
+    margin: 0 16px;
+}
+#copyright{
+    color: #6B7280;
+    font-size: 0.8593rem;
+}
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.jobs-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: #BFDBFE ;
+    text-align: center;
+    color: #222222;
+
+}
+.jobs-data-row td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table tr:nth-child(odd){
+    background-color: #EFF6FF;
+}
+#application{
+    max-width:800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#application-form label{
+    font-weight: 600;
+}
+#application-form input,select,textarea{
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+.form-group{
+  
+    margin:16px 0;
+}
+.form-group input[type="submit"]{
+    background-color: #1A56DB;
+    color: white;
+    font-weight: 500px;
+    cursor: pointer;
+}
+.form-group input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+.form-group textarea{
+    width: 80%;
+    font-family: 'Roboto',sans-serif;
+}
